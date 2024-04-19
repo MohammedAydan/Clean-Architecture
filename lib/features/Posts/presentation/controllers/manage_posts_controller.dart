@@ -68,11 +68,11 @@ class ManagePostsController extends GetxController {
 
   String _mapFailureToMessage(Failure failure) {
     switch (failure.runtimeType) {
-      case ServerFailure():
+      case const (ServerFailure):
         return SERVER_FAILUER_MESSAGE;
-      case EmptyCacheFailure():
+      case const (EmptyCacheFailure):
         return EMPTY_CASHE_FAILUER_MESSAGE;
-      case OfflineFailuer():
+      case const (OfflineFailuer):
         return OFFLINE_FAILUER_MESSAGE;
       default:
         return 'Unexpected error pleace try again later.';

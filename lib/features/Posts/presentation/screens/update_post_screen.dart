@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:learning/features/Posts/domain/entities/post.dart';
 import 'package:learning/features/Posts/presentation/controllers/manage_posts_controller.dart';
 
-import '../widgets/loading_widget.dart';
+import '../../../../core/widgets/loading_widget.dart';
 
 class UpdatePostScreen extends GetView<ManagePostsController> {
   static const String routeName = '/updatePost';

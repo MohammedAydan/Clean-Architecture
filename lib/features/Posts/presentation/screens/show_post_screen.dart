@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:learning/features/Posts/domain/entities/post.dart';
 import 'package:learning/features/Posts/presentation/controllers/manage_posts_controller.dart';
 import 'package:learning/features/Posts/presentation/screens/update_post_screen.dart';
-import 'package:learning/features/Posts/presentation/widgets/loading_widget.dart';
+import 'package:learning/core/widgets/loading_widget.dart';
 
 class ShowPostScreen extends GetView<ManagePostsController> {
   static const String routeName = '/showPost';
